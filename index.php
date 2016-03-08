@@ -24,10 +24,10 @@ $array = $convertDB->convertToObject($object);
 
 
 //Find Value in object
-$convertDB->seekObject($arr,$val);
+$findDB->seekObject($arr,$val);
 
 //Convert to array
-$convertDB->seekArray($object,$val);
+$findDB->seekArray($object,$val);
 
 
 
